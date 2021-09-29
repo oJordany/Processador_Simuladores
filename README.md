@@ -14,4 +14,4 @@ Isso tudo será demonstrado, basicamente, através de 3 programas com funcionali
 - **O segundo:** Realiza o produto entre dois números inseridos pelo usuário
 - **O terceiro:** Faz o quadrado de um número X inserido pelo usuário 
 
-**OBS:** Existem 6 arquivos (sem contar o README) dentro desse repositório. Os arquivos com o final "Smsg" contêm os programas sem as mensagens relacionadas ao fluxo de dados e instruções no processador. Já os programas que não apresentam o final "Smsg" possuem as mensagens indicando como ocorre cada processo de busca de dados e instruções dentro do processador e dele com a memória.
+**OBS:** Existem 6 arquivos (sem contar o README e o main.py) dentro desse repositório. Os arquivos com o final "Smsg" contêm os programas sem as mensagens relacionadas ao fluxo de dados e instruções no processador. Já os programas que não apresentam o final "Smsg" possuem as mensagens indicando como ocorre cada processo de busca de dados e instruções dentro do processador e dele com a memória.
