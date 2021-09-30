@@ -34,7 +34,7 @@ def funcaoUC(inst):
         ULA = int(RDM, 2)
         print(f'\033[mRDM = {RDM} ————————————————————> ULA = {ULA}')
         R0 = f'{(bin(int(R0, 2) + ULA)[2:]):0>12}'
-        print(f'\033[mULA + R0 ————————————————————> R0 = {R0}')
+        print(f'\033[mR0 + ULA ————————————————————> R0 = {R0}')
     if c_op == '0100':
         print('\033[1;30;45mINSTRUÇÃO SUB')
         REM = op
@@ -48,7 +48,7 @@ def funcaoUC(inst):
             R0 = f'-{(bin(int(R0, 2) - ULA).replace("-0b", "")):0>12}'
         else:
             R0 = f'{(bin(int(R0, 2) - ULA).replace("0b", "")):0>12}'
-        print(f'\033[mULA - R0 ————————————————————> R0 = {R0}')
+        print(f'\033[mR0 - ULA ————————————————————> R0 = {R0}')
     if c_op == '0101':
         print('\033[1;30;45mINSTRUÇÃO JZ')
         print('\033[mSE R0 = 0, ENTÃO CI ← Op.')
